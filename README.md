@@ -33,19 +33,19 @@ GET /
 
 ### Browser
 ```
-https://seu-projeto.vercel.app/?text=https://google.com
+https://qr-janselmon.vercel.app/?text=https://google.com
 ```
 
 Com tamanho customizado:
 ```
-https://seu-projeto.vercel.app/?text=PIX123456&size=500
+https://qr-janselmon.vercel.app/?text=PIX123456&size=500
 ```
 
 ---
 
 ### HTML
 ```html
-<img src="https://seu-projeto.vercel.app/?text=PagamentoPIX&size=400" />
+<img src="https://qr-janselmon.vercel.app/?text=PagamentoPIX&size=400" />
 ```
 
 ---
@@ -53,6 +53,6 @@ https://seu-projeto.vercel.app/?text=PIX123456&size=500
 ### JavaScript
 ```js
 const img = document.createElement('img');
-img.src = 'https://seu-projeto.vercel.app/?text=Pedido123';
+img.src = 'https://qr-janselmon.vercel.app/?text=Pedido123';
 document.body.appendChild(img);
 ```
